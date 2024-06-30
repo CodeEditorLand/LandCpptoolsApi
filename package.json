@@ -1,12 +1,12 @@
 {
-	"name": "vscode-cpptools",
 	"description": "Public API for vscode-cpptools",
+	"devDependencies": {
+		"@types/node": "20.14.9"
+	},
 	"main": "./out/api.js",
-	"typings": "./out/api.d.ts",
+	"name": "vscode-cpptools",
 	"scripts": {
 		"compile": "tsc -p ./"
 	},
-	"devDependencies": {
-		"@types/node": "20.14.9"
-	}
+	"typings": "./out/api.d.ts"
 }
