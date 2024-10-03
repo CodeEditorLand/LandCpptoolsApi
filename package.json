@@ -1,7 +1,7 @@
 {
 	"description": "Public API for vscode-cpptools",
 	"devDependencies": {
-		"@types/node": "^14.14.16"
+		"@types/node": "22.7.4"
 	},
 	"main": "./out/api.js",
 	"name": "vscode-cpptools",
